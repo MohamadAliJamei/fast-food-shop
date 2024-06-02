@@ -1,8 +1,11 @@
 import './App.css';
+import Header from './Header/header';
 
 function App() {
   return (
-    <h1>Fast food shop</h1>
+    <div className='wrapper bg-faded-dark'>
+      <Header />
+    </div>
   );
 }
 
